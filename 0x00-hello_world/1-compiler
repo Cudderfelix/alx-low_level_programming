@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFIL ddddE
+gcc -c $CFILE
