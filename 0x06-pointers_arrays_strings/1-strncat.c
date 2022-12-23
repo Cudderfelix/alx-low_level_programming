@@ -1,4 +1,4 @@
-i/**
+/**
  * _strncat - a function that concatenates two strings.
  *
  * @dest: pointer to destination input
