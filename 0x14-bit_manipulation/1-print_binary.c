@@ -46,6 +46,8 @@ void debug_2(unsigned long int n, unsigned long int mask)
  *
  * Return: nothing
 */
+
+
 void debug_3(unsigned long int mask)
 {
 	printf("\nValue of mask is %lu after right shifting by one.\n\n", mask);
