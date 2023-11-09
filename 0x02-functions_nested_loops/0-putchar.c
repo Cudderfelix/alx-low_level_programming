@@ -1,8 +1,6 @@
 #include"main.h"
 
 /**
- * C Programming - Function and Nested Loops
- *
  * main - Entry point
  *
  * Description: prints _putchar using putchar prototype
