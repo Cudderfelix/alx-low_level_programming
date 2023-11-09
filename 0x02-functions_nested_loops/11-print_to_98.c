@@ -1,14 +1,14 @@
 #include"main.h"
 
 /**
- * print_to_98 - print n to 98 counts
+ * print_to_98 - print q to 98 counts
  * seperate the int with a comma,
  *	then a space and it should be
  *	printed in order
  *
 */
 
-void print_to_98(int n)
+void print_to_98(int q)
 {
 	int count;
 
