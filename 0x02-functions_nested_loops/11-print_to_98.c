@@ -16,7 +16,7 @@ void print_to_98(int q)
 	for (count = q; count > 98; --count)
 		printf("%d, ", count);
 	else
-	for (count = n; count < 98; ++count)
+	for (count = q; count < 98; ++count)
 		printf("%d, ", count);
 	printf("98\n");
 }
