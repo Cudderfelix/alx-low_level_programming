@@ -5,7 +5,7 @@
  * seperate the int with a comma,
  *	then a space and it should be
  *	printed in order
- *
+ *@q: input
 */
 
 void print_to_98(int q)
