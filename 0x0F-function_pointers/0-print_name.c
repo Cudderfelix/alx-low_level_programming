@@ -1,4 +1,4 @@
-/**
+i/**
  * print_name - function to print name
  *
  * @name: name to print
