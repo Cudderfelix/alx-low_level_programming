@@ -5,19 +5,19 @@
  * print_strings - a function that prints strings, followed by a new line
  *
  * @separator: pointer to a constant separator
- * @b: start of input variables
+ * @n: start of input variables
  *
  * Return: nothing
 */
 
-void print_strings(const char *separator, const unsigned int b, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int index;
 	char *str;
 
 	/* iterate the argument list from the start */
-	va_start(ap, b);
+	va_start(ap, n);
 
 	for (index = 0; index < n; index++)
 	{
@@ -27,7 +27,7 @@ void print_strings(const char *separator, const unsigned int b, ...)
 		else
 			printf("(nil)");
 
-		if (separator && index != b - 1)
+		if (separator && index != n - 1)
 			printf("%s", separator);
 	}
 	/*clean up*/
