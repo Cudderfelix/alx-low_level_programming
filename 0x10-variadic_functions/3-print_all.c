@@ -29,7 +29,7 @@ void print_int(va_list arg)
 {
 	int n = va_arg(arg, int);
 
-	printf("%d", b);
+	printf("%d", n);
 }
 
 /**
@@ -45,7 +45,7 @@ void print_float(va_list arg)
 {
 	float n = va_arg(arg, double);
 
-	printf("%f", b);
+	printf("%f", n);
 }
 
 /**
