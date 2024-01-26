@@ -1,14 +1,14 @@
 #include <stdarg.h>
 
 /**
- * sum_up - adds all its parameters
+ * sum_them_all - adds all its parameters
  *
- * @b: start of input variables
+ * @n: start of input variables
  *
  * Return: the sum
 */
 
-int sum_up(const unsigned int b, ...)
+int sum_them_all(const unsigned int b, ...)
 {
 	va_list ap;
 	unsigned int param, sum = 0;
