@@ -4,9 +4,9 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-int sum_up(const unsigned int b, ...);
-void print_num(const char *separator, const unsigned int b, ...);
-void print_strings(const char *separator, const unsigned int b, ...);
+int sum_up(const unsigned int n, ...);
+void print_num(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
