@@ -19,7 +19,13 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		return (NULL);
 
 	/*Connect first node in head with the new_node*/
-
+	if (*head == NULL)
+		new_node->next = NULL;
+	else
+		new_node-> = *head;
+	new_node->n = n;
 
 	/*Initiate new node at the beginning of the list*/
+	*head = new_node;
+	return (*head);
 }
