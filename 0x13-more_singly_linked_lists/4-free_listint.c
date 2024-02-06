@@ -1,4 +1,4 @@
-dhd#include "lists.h"
+#include "lists.h"
 
 /**
  * free_listint - free list
@@ -14,5 +14,7 @@ void free_listint(listint_t *head)
 	while ((current = head) != NULL)
 	{
 		/*Assign head as the next node*/
+		head = head->next;
+		free(current);
 	}
 }
