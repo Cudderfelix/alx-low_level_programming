@@ -1,4 +1,4 @@
-hw#include "lists.h"
+#include "lists.h"
 
 /**
  * add_nodeint - a function that adds a new node at the
@@ -18,15 +18,8 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (new_node == NULL)
 		return (NULL);
 
-	/*link first node in head with the new_node*/
-	if (*head == NULL)
-		new_node->next = NULL;
-	else
-		new_node->next = *head;
+	/*Connect first node in head with the new_node*/
 
-	new_node->n = n;
-	/*add new node at the beginning of the list*/
-	*head = new_node;
 
-	return (*head);
+	/*Initiate new node at the beginning of the list*/
 }
