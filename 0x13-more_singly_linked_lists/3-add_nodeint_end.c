@@ -22,18 +22,16 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	temp = *head;
 
-	/*place new_node first if head is NULL*/
+	/*add new_node first if head is NULL*/
 	if (temp == NULL)
 		*head = new_node;
 	else
 	{
 		/*if head is not null, and next is not NULL*/
-		while (temp->next != NULL)
-			temp = temp->next;	/*go to the last node*/
+				/*move to the last node*/
 
 		/*place our new node at the end*/
-		temp->next = new_node;
+
 	}
 
-	return (*head);
 }
