@@ -28,10 +28,12 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	else
 	{
 		/*if head is not null, and next is not NULL*/
-				/*move to the last node*/
+		while (temp->next != NULL)
+			temp = temp->next; /*move to the last node */
 
 		/*place our new node at the end*/
-
+		temp->next = new_node;
 	}
+	return (*head);
 
 }
