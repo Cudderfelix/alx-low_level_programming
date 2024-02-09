@@ -21,7 +21,10 @@ unsigned int _atoi(char c)
 */
 unsigned int _strlen(const char *str)
 {
-	
+unsigned int index =0;
+while (str[index]!= '\0')
+	index++;
+return (index);
 }
 
 /**
