@@ -1,4 +1,4 @@
-ff#include "main.h"
+#include "main.h"
 
 /**
  * print_bin - prints binary rep of @n
