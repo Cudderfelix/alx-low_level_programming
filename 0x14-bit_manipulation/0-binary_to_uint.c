@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * _atoi - converts chars to integer
@@ -21,11 +21,7 @@ unsigned int _atoi(char c)
 */
 unsigned int _strlen(const char *str)
 {
-	unsigned int index = 0;
-
-	while (str[index] != '\0')
-		index++;
-	return (index);
+	
 }
 
 /**
