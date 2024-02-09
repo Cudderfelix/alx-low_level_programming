@@ -1,4 +1,4 @@
-/**
+s/**
  * get_endianness - a function that checks if
  *                  architecture is little endian
  *                  or big endian
