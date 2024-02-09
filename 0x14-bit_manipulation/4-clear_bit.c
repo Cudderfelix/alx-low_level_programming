@@ -1,4 +1,4 @@
-u#include "main.h"
+#include "main.h"
 
 #define CHAR_BITS 8 /*size of char*/
 #define INT_BITS (sizeof(unsigned long int) * CHAR_BITS)
