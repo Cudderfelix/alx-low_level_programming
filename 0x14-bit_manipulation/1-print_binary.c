@@ -1,5 +1,4 @@
 #include "main.h"
-
 /*
  * Description - this is a version With Debug Option, this won't work
  *		with the checker copy go to the readme and click
