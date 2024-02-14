@@ -1,6 +1,6 @@
-#include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
+wn#include "main.h"
+qw#include <stdlib.h>
+tr#include <stdio.h>
 
 /**
  * read_textfile - a function that reads a text file and prints it
