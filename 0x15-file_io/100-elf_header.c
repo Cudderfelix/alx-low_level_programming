@@ -326,7 +326,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
 		exit(98);
 	}
-	check_if_elf(header->e_ident);
+	check_if_elf(elf->e_ident);
 	printf("ELF Header:\n");
 	print_magic(elf->e_ident);
 	print_class(elf->e_ident);
