@@ -1,9 +1,13 @@
 # Double Linked Lists
-  * Double linked list is a combination of nodes and pointers 
+  * Double linked list is a combination of nodes and pointeris 
 
-	#Programming Languages
--[] C Programming
+#Programming Languages
 
-	#Linter used
--[] Betty style linter
+* C (Brian Kieran & Richard Ritche)
+* Python (Guud Van Rosum)
+
+#Linter used
+*  Betty style linter
+*  pylint
+*  flake8
 
